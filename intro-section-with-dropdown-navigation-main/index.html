@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script defer src="scripts/toggle-dropdown.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="images/logo.svg" alt="Snap logo" class="header-icon" />
+      <div class="header-dropdowns">
+        <div class="dropdown">
+          <button class="dropdown-toggle">
+            Features
+            <img
+              src="images/icon-arrow-down.svg"
+              alt="Arrow pointing down"
+              class="dropdown-icon"
+            />
+            <img
+              src="images/icon-arrow-up.svg"
+              alt="Arrow pointing down"
+              class="dropdown-icon"
+            />
+          </button>
+          <div class="dropdown-content">
+            <a href="#" class="header-link">
+              <img
+                src="images/icon-todo.svg"
+                alt="TodoList icon"
+                class="dropdown-icon"
+              />
+              <p class="dropdown-text">Todo List</p>
+            </a>
+            <a href="#" class="header-link">
+              <img
+                src="images/icon-calendar.svg"
+                alt="Calendar icon"
+                class="dropdown-icon"
+              />
+              <p class="dropdown-text">Calendar</p>
+            </a>
+            <a href="#" class="header-link">
+              <img
+                src="images/icon-reminders.svg"
+                alt="Reminders icon"
+                class="dropdown-icon"
+              />
+              <p class="dropdown-text">Reminders</p>
+            </a>
+            <a href="#" class="header-link">
+              <img
+                src="images/icon-planning.svg"
+                alt="Planning icon"
+                class="dropdown-icon"
+              />
+              <p class="dropdown-text">Planning</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-toggle">
+            Company
+            <img
+              src="images/icon-arrow-down.svg"
+              alt="Arrow pointing down"
+              class="dropdown-icon"
+            />
+            <img
+              src="images/icon-arrow-up.svg"
+              alt="Arrow pointing down"
+              class="dropdown-icon"
+            />
+          </button>
+          <div class="dropdown-content">
+            <a href="#" class="header-link">
+              <p class="dropdown-text">History</p>
+            </a>
+            <a href="#" class="header-link">
+              <p class="dropdown-text">Our Team</p>
+            </a>
+            <a href="#" class="header-link">
+              <p class="dropdown-text">Blog</p>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="header-link">Careers</a>
+        <a href="#" class="header-link push-right">About</a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#" class="header-link">Login</a>
+        <a href="#" class="header-link cta cta--outline">Register</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-text-box">
+        <h2 class="main-heading">Make remote work</h2>
+        <p class="main-text">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="#" class="margin-bottom-md cta cta--full">Learn more</a>
+        <div class="logos">
+          <img
+            src="images/client-databiz.svg"
+            alt="Databiz logo"
+            class="logo"
+          />
+          <img
+            src="images/client-audiophile.svg"
+            alt="AudioPhile logo"
+            class="logo"
+          />
+          <img src="images/client-meet.svg" alt="Meet logo" class="logo" />
+          <img src="images/client-maker.svg" alt="Maker logo" class="logo" />
+        </div>
+      </div>
+      <img src="images/image-hero-desktop.png" alt="" class="main-img" />
+    </main>
+  </body>
+</html>

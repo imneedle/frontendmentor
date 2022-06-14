@@ -1,0 +1,44 @@
+/* +--------------------+ */
+/* |   General styles   | */
+/* +--------------------+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 16px/1 sans-serif;
+}
+
+/* +----------------+ */
+/* |   Chessboard   | */
+/* +----------------+ */
+.section-chessboard {
+  max-width: 100rem;
+  padding: 0 9.6rem;
+  margin: 0 auto;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 5rem);
+  grid-template-rows: repeat(8, 5rem);
+  align-items: center;
+  justify-items: center;
+}
+
+.square {
+}
+
+.chessboard .square:nth-child(odd) {
+  background: #eee;
+}
+
+.chessboard .square:nth-child(even) {
+  background: #aaa;
+}
